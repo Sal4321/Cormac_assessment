@@ -7,7 +7,7 @@ Steps:
   
   Assumptions that i considered: a. Number of missing values are less than 5% and they do not have any pattern relating with the outcome. So, I decided to delete all the missing values. The procedure would be different if there were many missing values or if they were not random
   
-  b. Variables contained in the attributes make sense in term of domain knowledge. Also, when I looked at correlation plots, I did not discover a high correlation value. A high correlation value would indicate possible discarding of one of the variables. My final decision was to consider all the attributes for my model.
+  b. Variables contained in the attributes make sense in term of domain knowledge. Also, when I looked at correlation plots, I did not discover a high correlation value. A high correlation value between any pair of features would require possible discarding of one of the variables. My final decision was to consider all the attributes for my model.
   
   c. No duplicates in the dataset. Which means I did not need to drop duplicate values.
   
