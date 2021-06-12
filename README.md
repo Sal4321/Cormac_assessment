@@ -3,7 +3,7 @@ Input Data: Dictionary of attributes (Types of procedure, How long the procedure
 
 Steps:
 1. Data collection: 3 functions are created to collect data from cms_procedure library which would convert the collected data to pandas dataframe
-2. Data Analysis and preprocessing: Because preocedure outcome variables won't be available for final prediciton, I disregarded these featuere in model training phase. So my full dataset contains only attributes and outcomes.
+2. Data Analysis and preprocessing: Because granular outcome variables won't be available for final prediciton, I disregarded these featuere in model training phase. So my full dataset contains only attributes and outcomes.
   
   Assumptions that i considered in this phase:
   a. Number of missing values are less than 5% and they do not have any pattern relating with the outcome. So, I decided to delete all the missing values. The procedure would be different if there were many missing values or if they were not random
