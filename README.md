@@ -17,7 +17,7 @@ Steps:
   
 4. Coding: cormac_train.py will extract the data from source, do some simple preprocessing and build a random forest model which will use grid search to get the best sets of parameters. (Tree depth and number of estimators. There are other variables to consider but kept it simple for this project). Our model will mean test score, mean test standard devision for each of the combinations using print_results function. With the evaluate_model function it will show precision, recall and accuracy for the test data.
 
-  Because I don't exactly have the new sets of attributes, I assumed they are just provided to me. So, in the cormac_prediction.py file, user has to provide the directory of the pre-trained model and we will use that model to get new output.
+  Because I don't exactly have the new sets of attributes, I assumed they are just provided to me. So, in the cormac_prediction.py file, user has to provide the directory of the pre-trained model and we will use that model to get predictions for those new attrbutes.
   
  5. Further imrovements: Here are some proposals on further improvements:
     a. Try to reduce features of the model by using domain knowledge, exploratory analysis and looking at feature importance from our random forest model.
