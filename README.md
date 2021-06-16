@@ -23,7 +23,7 @@ Steps:
     a. Try to reduce features of the model by using domain knowledge, exploratory analysis and looking at feature importance from our random forest model.
     b. Use Other classification algorthm such as knn, logistic regression or other tree based model such as Xgboost, adaboost and compare accuracy with our model
     
-Addedndum:
+Addendum:
 Here are some assumptions in this assessment that I did not address much at the time I was doing the coding, but I want to mention them here.
 1. Dataset size: My assumption is that we have a large dataset. Roughly there are around 3500-4000 rows of data. The statement also aligns with this assumption (It says 'fair volume of data').
 2. Feature types: I also overlooked what type of features we collected other than the mentioned ones. Some of the features are mentioned in the statement. Here is what the feature data could look like:
